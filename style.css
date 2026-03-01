@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.mood {
+    font-size: 28px;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.mood:hover {
+    transform: scale(1.2);
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 20px;
+    line-height: 1.5;
+}
